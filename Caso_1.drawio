@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="xRXCxWdYhMWLkECe5xxj" name="Page-1">
+        <mxGraphModel dx="1002" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Usuario/socio" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="105" width="30" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="105" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Recuperar contraseña" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="78" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Registrarse" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="280" width="185" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Recordar contraseña" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="170" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry x="-0.1873" y="-14" width="160" relative="1" as="geometry">
+                        <mxPoint x="470.25" y="200.25" as="sourcePoint"/>
+                        <mxPoint x="289.7474746830583" y="159.99873734152914" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="5">
+                    <mxGeometry x="-0.018" y="-20" width="160" relative="1" as="geometry">
+                        <mxPoint x="390" y="230" as="sourcePoint"/>
+                        <mxPoint x="289" y="175" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;exitX=0.429;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9">
+                    <mxGeometry x="-0.0304" y="20" width="160" relative="1" as="geometry">
+                        <mxPoint x="390" y="230" as="sourcePoint"/>
+                        <mxPoint x="260" y="180" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="270" width="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Validar cuenta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="137.5" y="280" width="185" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="180" as="sourcePoint"/>
+                        <mxPoint x="220" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="No registrado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="240" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="contraseña guardada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="350.25" y="170.25" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Contraseña olvidada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="105" width="140" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
